@@ -2187,7 +2187,7 @@ input, select, textarea {
 
 		.panel > * {
 			position: relative;
-			min-width: 10rem;
+			min-width: 1rem;
 		}
 
 			.panel > *.color0 {
@@ -2396,7 +2396,7 @@ input, select, textarea {
 		}
 
 		.panel .span-1-5 {
-			width: 15rem;
+			width: auto;
 		}
 
 		.panel .span-1-75 {
@@ -3504,8 +3504,8 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#page-wrapper {
-				padding-left: 2rem;
-				padding-right: 2rem;
+				padding-left: 0rem;
+				padding-right: 0rem;
 			}
 
 		}
@@ -3530,7 +3530,7 @@ input, select, textarea {
 
 		#page-wrapper {
 			height: auto;
-			padding: 1rem;
+			padding: 0rem;
 		}
 
 	}
@@ -3645,7 +3645,7 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			height: auto;
-			margin: 0 0 5rem 0;
+			margin: 0 0 0;
 			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
 		}
 
@@ -3682,3 +3682,4 @@ input, select, textarea {
 			}
 
 	}
+		
