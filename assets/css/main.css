@@ -2148,7 +2148,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		.gallery .image {
-			height: 39rem;
+			height: 30rem;
 		}
 
 		.gallery .group .image {
