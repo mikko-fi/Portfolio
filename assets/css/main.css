@@ -2148,7 +2148,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		.gallery .image {
-			height: 30rem;
+			height: 39rem;
 		}
 
 		.gallery .group .image {
@@ -2412,7 +2412,7 @@ input, select, textarea {
 		}
 
 		.panel .span-2-5 {
-			width: 25rem;
+			width: 21rem;
 		}
 
 		.panel .span-2-75 {
