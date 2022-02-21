@@ -3470,7 +3470,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		.panel.spotlight .content {
-			min-height: 40rem;
+			min-height: 18rem;
 		}
 
 	}
