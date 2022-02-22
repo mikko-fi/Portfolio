@@ -212,7 +212,7 @@ input, select, textarea {
 			z-index: -1;
 			background-attachment: fixed;
 			background-color: #e1e6e1;
-			background-image: url("../../images/overlay.png"), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), url("../../images/bg.png");
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
@@ -2187,7 +2187,7 @@ input, select, textarea {
 
 		.panel > * {
 			position: relative;
-			min-width: 1rem;
+			min-width: 0rem;
 		}
 
 			.panel > *.color0 {
@@ -2400,7 +2400,7 @@ input, select, textarea {
 		}
 
 		.panel .span-1-75 {
-			width: 17.5rem;
+			width: 0rem;
 		}
 
 		.panel .span-2 {
@@ -2656,7 +2656,7 @@ input, select, textarea {
 		}
 
 		.panel.small .span-7, .panel.medium .span-7, .panel.large .span-7 {
-			width: 90%;
+			width: 100%;
 		}
 
 		.panel.small .span-7-25, .panel.medium .span-7-25, .panel.large .span-7-25 {
@@ -3360,7 +3360,7 @@ input, select, textarea {
 			-webkit-flex-basis: auto;
 			-ms-flex-basis: auto;
 			flex-basis: auto;
-			height: 18rem;
+			height: 0rem;
 		}
 
 		.panel.banner.left {
@@ -3499,6 +3499,7 @@ input, select, textarea {
 		-ms-flex-shrink: 1;
 		flex-shrink: 1;
 		height: 100%;
+		padding: 10rem;
 	}
 
 		@media screen and (orientation: portrait) {
